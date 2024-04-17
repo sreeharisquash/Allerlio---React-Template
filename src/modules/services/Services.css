@@ -1,0 +1,85 @@
+.services-breadcrumb {
+  background: url("../../assets/dummyimages/dummy-breadcrumb.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 6.25rem 0 6.25rem 0;
+}
+.service-contents {
+  padding: 6.25rem 0 6.25rem 0;
+}
+.relative-container-icons {
+  position: relative;
+  background: url("../../assets/images/services/images/service-bg.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1rem 8rem 5rem 1rem;
+}
+@keyframes floatingIcons {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.icon-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: floatingIcons 2s infinite ease-in-out;
+}
+
+.icon-2 {
+  position: absolute;
+  top: -3rem;
+  right: 0;
+  animation: floatingIcons 2s infinite ease-in-out;
+}
+
+.icon-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: floatingIcons 2s infinite ease-in-out;
+}
+.icon-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: floatingIcons 2s infinite ease-in-out;
+}
+
+.our-process{
+  padding: 6.25rem 0 6.25rem 0;
+
+}
+.contain-process {
+  background-color: #d9d9d9;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+}
+.number-contain {
+  background-color: #5956e9;
+  max-width: max-content;
+  border-radius: 100%;
+  padding: 1rem 1.2rem 1rem 1.2rem;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 480px) {
+  .icon-1,
+  .icon-2,
+  .icon-3,
+  .icon-4 {
+    display: none;
+  }
+  .relative-container-icons {
+    background: none;
+    padding: 1rem;
+  }
+}

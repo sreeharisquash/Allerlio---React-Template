@@ -1,0 +1,39 @@
+.contact-form .submit {
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  position: relative;
+  text-transform: capitalize;
+  background-color: #f57105;
+  color: white;
+}
+.contact-form .submit:hover {
+  transform: scale(1.05);
+}
+.line-break {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 567px) {
+  .line-break {
+    display: block;
+  }
+}
+
+.contact-form textarea {
+  height: 15rem;
+  border: 1.5px solid #cccccc;
+  padding: 12px 20px 12px 20px;
+  width: 100%;
+}
+.contact-form input {
+  border: 1px solid #cccccc;
+  padding: 12px 20px 12px 20px;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}

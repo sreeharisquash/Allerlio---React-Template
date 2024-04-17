@@ -1,0 +1,30 @@
+.section4-container{
+    padding: 6.25rem 0 6.25rem 0;
+}
+.side-lining {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* align-items: baseline; */
+  text-align: center;
+  max-width: max-content;
+  /* margin-left: 3rem; */
+}
+.side-lining::before {
+  content: url("../../assets/icons/lining.svg");
+  position: absolute;
+  left: -3rem;
+  /* top: -0.5rem; */
+}
+
+.side-lining::after {
+  content: url("../../assets/icons/lining.svg");
+  position: absolute;
+  right: -3rem;
+  /* top: -0.5rem; */
+}
+
+.section4-container h4{
+  text-align: center;
+}

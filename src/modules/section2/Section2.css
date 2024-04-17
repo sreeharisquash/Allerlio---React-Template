@@ -1,0 +1,151 @@
+.section2-container {
+  padding: 6.25rem 0 6.25rem 0;
+}
+.lining {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  margin-left: 3rem;
+}
+.lining::before {
+  content: url("../../assets/icons/lining.svg");
+  position: absolute;
+  left: -3rem;
+  top: -0.5rem;
+}
+.absolute-screen {
+  position: relative;
+}
+.screen-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.screen-2 {
+  position: absolute;
+  right: -8rem;
+  top: 10rem;
+}
+
+.btn-screen {
+  position: relative;
+}
+.sec2-playbtn {
+  position: absolute;
+  z-index: 5;
+  left: 78%;
+  top: 17rem;
+}
+.vector-img {
+  position: absolute;
+  opacity: 0.5;
+  top: 24rem;
+  left: 0;
+}
+@media (max-width: 1199px) {
+  .vector-img {
+    opacity: 0;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .sec2-playbtn {
+    left: 76%;
+  }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  .sec2-playbtn {
+    left: 43%;
+    top: 18rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sec2-playbtn {
+    left: 68%;
+  }
+}
+@media (min-width: 500px) and (max-width: 767px) {
+  .sec2-playbtn {
+    left: 50%;
+  }
+}
+@media (min-width: 420px) and (max-width: 499px) {
+  .sec2-playbtn {
+    left: 38%;
+  }
+}
+@media (min-width: 350px) and (max-width: 419px) {
+  .sec2-playbtn {
+    left: 36%;
+    top: 18rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 349px) {
+  .sec2-playbtn {
+    left: 32%;
+    top: 16rem;
+  }
+}
+@media (max-width: 319px) {
+  .sec2-playbtn {
+    left: 27%;
+    top: 16rem;
+  }
+}
+@media (max-width: 991px) {
+  .section3-container {
+    margin-top: 30rem;
+  }
+}
+.align-img-cls {
+  position: relative;
+  margin-left: 5rem;
+}
+.align-img-cls img {
+  position: absolute;
+  top: 6px;
+  left: -5rem;
+}
+
+.count-data-container {
+  display: flex;
+  gap: 10rem;
+}
+@media (max-width: 576px) {
+  .count-data-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media  (max-width: 991px) {
+  .section2-container {
+    margin-bottom: 33rem;
+  }
+}
+
+.video-popup-container{
+  max-width: 100%;
+}
+/* @media (min-width:520px) and (max-width: 767px) {
+  .section2-container {
+    margin-bottom: 33rem;
+  }
+}
+
+@media (min-width:320px) and (max-width: 519px) {
+  .section2-container {
+    margin-bottom: 38rem;
+  }
+}
+ */
+
+@media (max-width: 1200px) {
+  .screen-2 {
+    right: -2rem;
+  }
+}
+@media (max-width: 620px) {
+  .screen-2 {
+    right: 0;
+  }
+}

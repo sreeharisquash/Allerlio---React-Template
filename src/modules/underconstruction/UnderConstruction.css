@@ -1,0 +1,10 @@
+.construction-image-container{
+    padding: 4rem 0 0 0;
+}
+.underconstruction-breadcrumb{
+    background: url('../../assets/dummyimages/dummy-breadcrumb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6.25rem 0 6.25rem 0;
+
+}

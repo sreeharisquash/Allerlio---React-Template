@@ -1,0 +1,26 @@
+.frame-bg {
+    background-color: none;
+    border: none;
+  }
+  .btn-primary {
+    height: 10%;
+  }
+  .ReactModal__Overlay--after-open {
+    z-index: 1000;
+  }
+  .ReactModal__Content--after-open{
+    outline: none !important;
+  }
+  .popup-video{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    
+  }
+
+  /* @media (max-width:394px){
+    .popup-video{
+      padding-top: 8rem;
+    }
+  } */

@@ -1,0 +1,12 @@
+.btn-cls{
+    padding: 12px 25px 12px 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.btn-cls:hover{
+    transform:scale(1.05)
+}

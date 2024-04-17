@@ -1,0 +1,13 @@
+.error-breadcrumb{
+    background: url('../../assets/dummyimages/dummy-breadcrumb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6.25rem 0 6.25rem 0;
+}
+.error-image-container{
+    background: url('../../assets/images/404page/404errorimg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 80%;
+
+}

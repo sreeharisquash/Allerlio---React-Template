@@ -1,0 +1,205 @@
+.blogdetail-breadcrumb {
+  background: url("../../assets/dummyimages/dummy-breadcrumb.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 6.25rem 0 6.25rem 0;
+}
+.blogdetail-contents {
+  padding: 5rem 0 6.25rem 0;
+}
+.relative-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.profile-bef,
+.clock-bef {
+  background-color: #5956e9;
+  padding: 20px 29px 20px 29px;
+  display: flex;
+  gap: 0.6rem;
+}
+.absol-container {
+  position: absolute;
+  display: flex;
+  gap: 0.1rem;
+  bottom: -2.2rem;
+  color: white;
+}
+@media (max-width:568px){
+    .absol-container{
+        flex-direction: column;
+        bottom: -13.2rem;
+    }
+    .blogdetail-contents .relative-container {
+        margin-bottom: 13rem;
+    }
+}
+.profile-bef::before {
+  content: url("../../assets/images/blogdetail/icons/profile-icon.svg");
+  margin-left: -0.5rem;
+}
+.clock-bef::before {
+  content: url("../../assets/images/blogdetail/icons/clock-icon.svg");
+}
+
+.points {
+  display: flex;
+  position: relative;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+.points::before {
+  content: "*";
+  position: absolute;
+  top: 0.3rem;
+  left: -1rem;
+}
+.quote-container {
+  margin-top: 3rem;
+  padding: 2rem 3rem 1rem 5rem;
+  background: linear-gradient(
+    to right,
+    #d2042d 3.5%,
+    #5956e9 3.5%,
+    #5956e9 100%
+  );
+}
+.image-relative {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.read-more {
+  color: #5956e9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+.read-more::after {
+  content: url("../../assets/icons/blue-more-icon.svg");
+}
+
+.date-and-month2 {
+  background-color: #5956e9;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+.blog-user,
+.comments {
+  display: flex;
+  position: relative;
+  margin-left: 2rem;
+  align-items: baseline;
+}
+.blog-user::before {
+  content: url("../../assets/images/blog/icons/user.svg");
+  position: absolute;
+  left: -1.5rem;
+}
+.comments::before {
+  content: url("../../assets/images/blog/icons/comments.svg");
+  position: absolute;
+  left: -1.5rem;
+}
+.blog-detail-contain {
+  max-width: min-content;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.blog-detail-contain {
+  position: absolute;
+  bottom: -3rem;
+}
+.relate-blogs {
+  padding: 6.25rem 0 0 0;
+}
+
+.form-container {
+  padding: 3rem 2rem 3rem 2rem;
+  background-color: #f1f1f1;
+}
+
+.form-container input[type=text] {
+  border: none;
+  height: 3rem;
+  border-radius: none;
+  margin-bottom: 2rem;
+}
+.form-container input,
+.form-container textarea:focus {
+  outline: none;
+}
+.form-container textarea {
+  border: none;
+  border-radius: none;
+}
+
+.form-container label {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+.profile-img {
+  max-width: 10%;
+  height: 10%;
+}
+.rating-sec {
+  margin-top: -1.5rem;
+}
+.scroll-container {
+  height: 46rem;
+  overflow-y: scroll;
+  margin-bottom: 2rem;
+}
+
+/* Styles for the scrollbar track (the area the thumb moves on) */
+.scroll-container::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+/* Styles for the scrollbar thumb (the draggable handle) */
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 6px; /* Border radius of the thumb */
+}
+
+/* Styles for the scrollbar track when the thumb is being dragged */
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Styles for the scrollbar track when the container is being scrolled */
+.scroll-container::-webkit-scrollbar-thumb:active {
+  background-color: #333;
+}
+.name-comments span {
+  font-size: 30px;
+  margin-top: -1.2rem;
+}
+
+.checkbox-sec {
+    position: relative;
+}
+.checkbox-sec input{
+  position: absolute;
+  top:0.4rem;
+
+}
+.policy-sec {
+  position: relative;
+  left: 1.5rem;
+}
+
+@media (max-width: 460px) {
+    .blog-detail-contain .response-data {
+      padding: 0.5rem;
+      flex-direction: column;
+    }
+  }

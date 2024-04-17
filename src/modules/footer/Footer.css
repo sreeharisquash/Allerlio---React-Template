@@ -1,0 +1,7 @@
+.footer-container{
+    background-color: #1E266E;
+    padding: 6.25rem 0 3.25rem 0;
+}
+.footer-container p, .footer-container h3{
+color: white;
+}

@@ -1,0 +1,19 @@
+.search-popup {
+    background-color: #D2042D;
+    padding: 2rem;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+  }
+
+
+  .icons-sec{
+    position: relative;
+
+  }
+
+  @media (max-width:394px){
+    .search-popup {
+      top: 8rem;
+    }
+  }

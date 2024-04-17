@@ -1,0 +1,9 @@
+.breadrumb-container{
+    background: url('../../assets/dummyimages/dummy-breadcrumb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6.25rem 0 6.25rem;
+}
+.map-contain{
+    margin-top: -1rem;
+}

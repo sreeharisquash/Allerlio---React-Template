@@ -1,0 +1,36 @@
+.sidebar-container {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background-image: url('../../assets/images/sidebar/images/sidebar-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2rem;
+    animation: slideInOut 0.3s ease-in-out forwards;
+    z-index: 9999;
+    overflow-y: auto;
+    background-size: cover;
+  }
+  
+  @keyframes slideInOut {
+    to {
+      right: 0;
+    }
+  }
+  
+  .sidebar-container.hide {
+    animation: slideInOutReverse 0.3s ease-in-out forwards;
+  }
+  
+  @keyframes slideInOutReverse {
+    to {
+      right: -300px;
+    }
+  }
+  
+.closebtn{
+    max-width: 10%;
+}

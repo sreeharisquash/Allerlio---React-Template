@@ -1,0 +1,5 @@
+@media (max-width:991px){
+    .countdown h2 , .countdown h6 , .countdown h3{
+        text-align: center !important;
+    }
+}

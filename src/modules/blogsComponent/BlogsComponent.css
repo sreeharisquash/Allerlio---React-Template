@@ -1,0 +1,51 @@
+.contain-data-detail {
+  display: flex;
+  align-items: baseline;
+  /* gap: 1rem; */
+
+}
+.blogs-container h6 {
+  text-align: left;
+}
+.blogs-container .card-body {
+  padding: 2rem;
+}
+.blogs-container {
+  transition: 0.3s;
+}
+.blogs-container:hover{
+  transform: scale(1.03);
+}
+.date-msg{
+    display: flex;
+    background-color: #5956E9;
+    border-top-right-radius: 5px;
+    justify-content: space-between;
+    padding: 1rem 1rem 0rem 1rem;
+}
+.contain-data-detail p{
+    color: white;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.blogs-container .card {
+  border-radius: 0;
+}
+
+.read-more {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  display: flex;
+  gap: 0.5rem;
+  color: #d2042d;
+}
+
+.read-more::after{
+    content: url('../../assets/icons/read-more-arrow.svg');
+
+}

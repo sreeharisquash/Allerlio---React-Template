@@ -1,0 +1,65 @@
+.section1-container {
+  background: url("../../assets/images/section1/images/SLIDER.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section1-container p {
+  color: white;
+}
+.hero-section-cont {
+  padding: 7rem 0 0 0;
+}
+.arrow-absol-cont {
+  position: relative;
+}
+@keyframes floating {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px); /* Adjust the distance */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.arrows-cls {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  animation: floating 2s ease-in-out infinite;
+}
+
+.call-data-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .call-data-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+.call-us {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.call-us span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .main-img {
+    margin-bottom: 3rem;
+  }
+}

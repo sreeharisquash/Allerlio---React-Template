@@ -1,0 +1,72 @@
+.aboutus-breadcrumb-container{
+    background: url('../../assets/dummyimages/dummy-breadcrumb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6.25rem 0 6.25rem 0;
+}
+.aboutus-container h2{
+text-align: center;
+}
+.contents-cont{
+    padding: 4rem 0 4rem 0;
+}
+
+
+.experience-cont{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 1rem 1.5rem 1rem 1.5rem ;
+    border-radius: 30px;
+    gap: 1.5rem;
+    transform: 0.3s;
+    cursor: pointer;
+}
+.experience-cont.clicked{
+    background-color: #D2042D;
+  /* color: #fff; */
+  transition: background-color 0.3s ease , max-height 0.8s ease;;
+}
+/* .clicked{
+    background-color: grey;
+} */
+.experience-cont h6{
+    text-align: left;
+    color: white;
+    max-width: 200px;
+}
+.data-transfer-cont{
+    background-color: lightgray;
+    padding: 6.25rem 0 6.25rem 0;
+}
+.data-transfer-cont h2{
+    text-align: left;
+}
+.our-team{
+    padding: 6.25rem 0 6.25rem 0;
+}
+.our-team h4 , .our-team p{
+text-align: center;
+}
+.mail-us{
+    padding: 3rem 0 3rem 0;
+}
+.mail-us h2{
+    text-align: left;
+}
+.about-input{
+    display: flex;
+}
+.about-input input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.about-input input:focus{
+    outline: none;
+    border-bottom: 1px solid #D2042D;
+
+}
+.about-input input::placeholder{
+   color: lightgray;
+}
